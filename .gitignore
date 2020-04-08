@@ -1,0 +1,10 @@
+build
+GNU\ *
+*.swp
+tags
+compile_commands.json
+a.out
+core
+.clangd
+.gdb*
+*.bak

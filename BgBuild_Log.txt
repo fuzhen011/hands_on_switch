@@ -1,0 +1,6 @@
+// Copyright 2020 Silicon Laboratories, Inc.
+//
+//
+
+Executing: bgbuild (/home/zhfu/work/SimplicityStudio_v4/developer/sdks/blemesh/v1.6/protocol/bluetooth/bin/bgbuild)
+
