@@ -9,8 +9,8 @@
 #ifdef BSP_LED_PRESENT
 // HAL Config LED module enabled
 #define BSP_GPIO_LEDS
-#define BSP_NO_OF_LEDS                BSP_LED_COUNT
-#define BSP_GPIO_LEDARRAY_INIT        BSP_LED_INIT
+//#define BSP_NO_OF_LEDS                BSP_LED_COUNT
+//#define BSP_GPIO_LEDARRAY_INIT        BSP_LED_INIT
 #endif
 
 #ifdef BSP_EXTLED_PRESENT
@@ -23,8 +23,8 @@
 #ifdef BSP_BUTTON_PRESENT
 // HAL Config Button module enabled
 #define BSP_GPIO_BUTTONS
-#define BSP_NO_OF_BUTTONS             BSP_BUTTON_COUNT
-#define BSP_GPIO_BUTTONARRAY_INIT     BSP_BUTTON_INIT
+//#define BSP_NO_OF_BUTTONS             BSP_BUTTON_COUNT
+//#define BSP_GPIO_BUTTONARRAY_INIT     BSP_BUTTON_INIT
 #endif
 
 #ifdef HAL_IOEXP_ENABLE

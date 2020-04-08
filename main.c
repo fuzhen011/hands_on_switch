@@ -1311,3 +1311,11 @@ static void handle_gecko_event(uint32_t evt_id, struct gecko_cmd_packet *evt)
       break;
   }
 }
+/******************************************************************
+ * Added for LC
+ * ***************************************************************/
+uint16_t get_primary_elem_addr(void)
+{
+  return _my_address;
+}
+
