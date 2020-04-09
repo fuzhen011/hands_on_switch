@@ -34,6 +34,8 @@ extern "C"
 #define AMBIENT_LIGHT_SENSOR_TIMER_ID (70)
 #define PEOPLE_COUNT_TIMER_ID (71)
 
+void sensors_init(void);
+
 #ifdef __cplusplus
 }
 #endif

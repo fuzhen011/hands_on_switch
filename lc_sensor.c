@@ -39,6 +39,14 @@ static lc_sensors_t sensor_states = { 0 };
 /* Static Functions Declaractions ************************************* */
 static void button_init(void);
 static void enable_button_interrupts(void);
+static void people_count_init(void);
+static void ambient_light_init(void);
+
+void sensors_init(void)
+{
+  people_count_init();
+  ambient_light_init();
+}
 
 static void people_count_init(void)
 {
